@@ -1,0 +1,219 @@
+/* Default */
+@font-face {
+    src: url(fonts/Rubik-Light.ttf);
+    font-family: 'Rubik-300';
+    font-weight: 300;
+}
+
+@font-face {
+    src: url(fonts/Rubik-Regular.ttf);
+    font-family: 'Rubik-400';
+    font-weight: 400;
+}
+
+@font-face {
+    src: url(fonts/Rubik-Medium.ttf);
+    font-family: 'Rubik-500';
+    font-weight: 500;
+}
+
+@font-face {
+    src: url(fonts/Rubik-Bold.ttf);
+    font-family: 'Rubik-700';
+    font-weight: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Rubik-400', sans-serif;
+    font-weight: 400;
+}
+
+/* General */
+.container {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+
+
+/* Header */
+.header {
+    background: url(Images/header-bg.png) no-repeat center / cover;
+    
+    height: 100vh;
+    
+}
+
+
+.header .navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 90px;
+}
+
+.header .container {
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 90px;
+}
+
+.header .navbar .menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.header .navbar .menu .link {
+ font-size: 16px;
+ font-weight: 400;
+ color: #1d1d1b;
+ border-bottom: 1px solid transparent;
+transition: 0.4;
+}
+
+.header .navbar .menu .link:hover {
+    background-color: #1d1d1b;
+}
+
+.header .content {
+    margin-bottom: 100px;
+    width: 775px;
+}
+
+.header .content .title{
+     font-size: 60px;
+    font-style: 60px;
+    font-family: 'Rubik-700', sans-serif;
+    color: #ffffff;
+   
+}
+
+.header .content .text{
+font-size: 20px;
+color: #ffffff;
+line-height: 28px;
+margin: 30px 0 60px;
+width: 700px;
+}
+
+.header .content .btn {
+    padding: 20px 36px;
+    background-color: #27AE60;
+    border: 0;
+    outline: 0;
+    border-radius: 8px;
+    font-size: 22px;
+    font-family: 'Rubik-500', sans-serif;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+.header .content .btn:hover{
+    box-shadow: 0 0 10px #000;
+}
+
+
+
+/* About */
+.about {
+    padding: 80px 0;
+}
+
+.about .site-title{
+    font-size: 42px;
+    font-family:  'Rubik-500', sans-serif;
+    line-height: 50px;
+    color: #1d1d1b;
+}
+
+.about .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 58px;
+}
+
+.about .card{
+    width: 273px;
+    border: 1px solid #a8a8a8;
+    border-radius: 8px;
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.about .card img{
+    width: 32px;
+    height: 32px;
+}
+
+.about .card p{
+    font-size: 14px;
+    font-family: 'Rubik-500',sans-serif;
+    color: #393838;
+    line-height: 20px;
+}
+
+.about .card p span{
+    color: #27AE60;
+}
+
+
+
+
+.vector .first-title {
+    font-size: 42px;
+    font-family: 'Rubik-500', sans-serif;
+    line-height: 50px;
+    color: #1d1d1b;
+}
+
+.vector .wrapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.vector .cart {
+    width: 340px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+    padding: 15px 10px;
+}
